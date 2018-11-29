@@ -1,0 +1,23 @@
+{
+   "name": "graphql-server-example",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "ts-node": "3.3.0",
+      "@types/node": "^8.0.29",
+      "typescript": "2.5.2"
+   },
+   "dependencies": {
+      "apollo-server": "^2.2.2",
+      "body-parser": "^1.18.1",
+      "express": "^4.15.4",
+      "graphql": "^14.0.2",
+      "mysql": "^2.16.0",
+      "reflect-metadata": "^0.1.10",
+      "sqlite3": "^4.0.4",
+      "typeorm": "0.2.9"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
